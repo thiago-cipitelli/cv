@@ -26,7 +26,7 @@
 %----------------------------------------------------------------------------------------
 
 % article class because we want to fully customize the page and not use a cv template
-\documentclass[a4paper,12pt]{article}
+\documentclass[a4paper,10.5pt]{article}
 
 %----------------------------------------------------------------------------------------
 %	FONT
@@ -142,12 +142,12 @@
 % \end{tabularx}
 
 \begin{tabularx}{\linewidth}{@{} C @{}}
-\Huge{Your Name} \\[7.5pt]
-\href{https://github.com/username}{\raisebox{-0.05\height}\faGithub\ username} \ $|$ \ 
-\href{https://linkedin.com/in/username}{\raisebox{-0.05\height}\faLinkedin\ username} \ $|$ \ 
-\href{https://mysite.com}{\raisebox{-0.05\height}\faGlobe \ mysite.com} \ $|$ \ 
-\href{mailto:email@mysite.com}{\raisebox{-0.05\height}\faEnvelope \ email@mysite.com} \ $|$ \ 
-\href{tel:+000000000000}{\raisebox{-0.05\height}\faMobile \ +00.00.000.000} \\
+\Huge{Thiago Cipitelli} \\[7.5pt]
+\href{https://www.linkedin.com/in/thiago-cipitelli/}{\raisebox{-0.05\height}\faLinkedin\ Thiago Cipitelli} \ $|$ \ 
+% \href{https://mysite.com}{\raisebox{-0.05\height}\faGlobe \ mysite.com} \ $|$ \ 
+\href{mailto:cipitelliprata@gmail.com}{\raisebox{-0.05\height}\faEnvelope \ cipitelliprata@gmail.com} \ $|$ \ 
+% \href{tel:+000000000000}{\raisebox{-0.05\height}\faMobile \ +00.00.000.000} \\
+\href{https://github.com/thiago-cipitelli}{\raisebox{-0.05\height}\faGithub\ github.com/thiago-cipitelli} \ \ 
 \end{tabularx}
 
 %----------------------------------------------------------------------------------------
@@ -155,60 +155,84 @@
 %----------------------------------------------------------------------------------------
 
 %Interests/ Keywords/ Summary
-\section{Summary}
-This CV can also be automatically compiled and published using GitHub Actions. For details, \href{https://github.com/jitinnair1/autoCV}{click here}.
+\section{Resumo}
+Desenvolvedor de Software com experiência sólida em Ruby on Rails, atuando no desenvolvimento de
+aplicações web, criação de APIs REST, integração de serviços e manutenção de sistemas em produção.
+Vivência com PostgreSQL, Redis, Rspec e aplicação de boas práticas de código, testes e performance.
+Participação em projetos de pesquisa com ReactJS, WebGL e visão computacional, além de experiência na migração de DataLake com
+Java 8, Hadoop HFDS e Azure.
+Interesse em ampliar atuação com Java e Python, contribuindo em ambientes colaborativos e orientados à inovação tecnológica.
+Capacidade de adaptação a ambientes dinâmicos e às necessidades da empresa, seus clientes e projetos. 
 
 %Experience
-\section{Work Experience}
+\section{Experiência profissional}
+\begin{joblong}{Desenvolvedor Backend em \textit{Mainô}}{Jun 2023 - Out 2025}
+    \item Desenvolvimento e manutenção de aplicações utilizando Ruby on Rails, APIs REST, serviços internos e integrações externas.
+    \item Implementação de testes automatizados (TDD) com RSpec para garantir qualidade e cobertura de código.
+    \item Atuação com mensageria usando RabbitMQ, incluindo processamento assíncrono e integrações distribuídas.
+    \item Experiência com integrações de pagamento, incluindo geração de boletos bancários e comunicação com gateways financeiros.
+    \item Manipulação de banco de dados PostgreSQL, otimização de queries e análise de performance.
+    \item Uso de Redis para caching e otimização de processos de alta carga.
+\end{joblong}
 
-\begin{jobshort}{Designation}{Jan 2021 - present}
-long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width
-\end{jobshort}
+\begin{joblong}{Desenvolvedor Fullstack em \textit{Laboratório de Visão Computacional}}{Out 2022 - Jun 2023}
+    \item Desenvolvimento de interface 3D utilizando ReactJS e WebGL, criando aplicações interativas e de alta complexidade gráfica.
+    \item  Consumo e integração de API REST, garantindo comunicação eficiente entre sistemas.
+    \item Colaboração em projetos com foco em visualização avançada e experiência do usuário.
+\end{joblong}
 
-
-\begin{joblong}{Designation}{Mar 2019 - Jan 2021}
-\item long long line of blah blah that will wrap when the table fills the column width
-\item again, long long line of blah blah that will wrap when the table fills the column width but this time even more long long line of blah blah. again, long long line of blah blah that will wrap when the table fills the column width but this time even more long long line of blah blah
+\begin{joblong}{Desenvolvedor Fullstack em \textit{Laboratório de Metrologia UFF}}{Jan 2022 - Out 2022}
+    \item Migração de DataLake do Hadoop HDFS para Azure, utilizando Java 8 para integração e adaptação de serviços.
+    \item Desenvolvimento de interface web em AngularJS para disponibilização de dados a usuários internos.
+    \item Participação na modernização e reestruturação de sistemas legados.
 \end{joblong}
   
-%Projects
-\section{Projects}
+% %Projects
+% \section{Projects}
 
-\begin{tabularx}{\linewidth}{ @{}l r@{} }
-\textbf{Some Project} & \hfill \href{https://some-link.com}{Link to Demo} \\[3.75pt]
-\multicolumn{2}{@{}X@{}}{long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width}  \\
-\end{tabularx}
+% \begin{tabularx}{\linewidth}{ @{}l r@{} }
+% \textbf{Some Project} & \hfill \href{https://some-link.com}{Link to Demo} \\[3.75pt]
+% \multicolumn{2}{@{}X@{}}{long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width}  \\
+% \end{tabularx}
 
 %----------------------------------------------------------------------------------------
 %	EDUCATION
 %----------------------------------------------------------------------------------------
-\section{Education}
+\section{Formação}
 \begin{tabularx}{\linewidth}{@{}l X@{}}	
-2030 - present & PhD (Subject) at \textbf{University} \hfill \normalsize (GPA: 4.0/4.0) \\
 
-2023 - 2027 & Bachelor's Degree at \textbf{College} \hfill (GPA: 4.0/4.0) \\ 
+2020 - 2027 (cursando) & Bacharelado em Ciência da Computação \textbf{ Universidade Federal Fluminense (UFF)}\\
 
-2022 & Class 12th Some Board \hfill  (Grades) \\
+2016 - 2020 & Técnico em Informática \textbf{ CEFET/RJ }\\
 
-2021 & Class 10th Some Board \hfill  (Grades) \\
 \end{tabularx}
 
-%----------------------------------------------------------------------------------------
-%	PUBLICATIONS
-%----------------------------------------------------------------------------------------
-\section{Publications}
-\begin{refsection}[citations.bib]
-\nocite{*}
-\printbibliography[heading=none]
-\end{refsection}
+% %----------------------------------------------------------------------------------------
+% %	PUBLICATIONS
+% %----------------------------------------------------------------------------------------
+% \section{Publications}
+% \begin{refsection}[citations.bib]
+% \nocite{*}
+% \printbibliography[heading=none]
+% \end{refsection}
 
 %----------------------------------------------------------------------------------------
 %	SKILLS
 %----------------------------------------------------------------------------------------
-\section{Skills}
+\section{Tecnologias}
 \begin{tabularx}{\linewidth}{@{}l X@{}}
-Some Skills &  \normalsize{This, That, Some of this and that etc.}\\
-Some More Skills  &  \normalsize{Also some more of this, Some more that, And some of this and that etc.}\\  
+
+\textbf{Programming Languages} &  \normalsize{Ruby, Java, Python, javascript, C, C++.}\\
+
+\textbf{Databases} &  \normalsize{PostgreSQL, MySQL, MongoDB, Redis, Elasticsearch, Firebase.}\\
+
+\textbf{DevOps and Cloud} &  \normalsize{Azure, Docker, GitLab.}\\
+
+% \textbf{Cloud Services} &  \normalsize{SQS, SNS, Lambda, S3, RDS, Kinesis, CloudWatch}\\
+
+\textbf{Frameworks} &  \normalsize{Ruby on Rails, SpringBoot, React, Node, Angular, Hibernate, Django, FastAPI.}\\
+
+
 \end{tabularx}
 
 \vfill
